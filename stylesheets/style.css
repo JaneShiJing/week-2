@@ -438,8 +438,9 @@ body {
   display: block;
   float: right;
 }
-/* line 351, ../sass/style.scss */
-.middle .posts .post section section p {
+/* line 350, ../sass/style.scss */
+.middle .posts .post section section S
+p {
   line-height: 1.5;
   font-weight: lighter;
 }
@@ -447,44 +448,44 @@ body {
 .middle .posts .post section section img {
   width: 100%;
 }
-/* line 360, ../sass/style.scss */
+/* line 364, ../sass/style.scss */
 .middle .posts .post section footer {
   margin-top: 10px;
 }
-/* line 362, ../sass/style.scss */
+/* line 366, ../sass/style.scss */
 .middle .posts .post section footer a {
   text-decoration: none;
   color: #C6C1B0;
   transition: all .2s ease-in-out;
 }
-/* line 367, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 .middle .posts .post section footer a .icon-redo {
   float: left;
   margin-right: 10px;
 }
-/* line 371, ../sass/style.scss */
+/* line 375, ../sass/style.scss */
 .middle .posts .post section footer a .icon-star2 {
   float: left;
   margin-right: 10px;
 }
-/* line 375, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 .middle .posts .post section footer a .icon-loop {
   float: left;
   margin-right: 10px;
 }
-/* line 379, ../sass/style.scss */
+/* line 383, ../sass/style.scss */
 .middle .posts .post section footer a .icon-play {
   float: left;
 }
-/* line 382, ../sass/style.scss */
+/* line 386, ../sass/style.scss */
 .middle .posts .post section footer a .icon-expand {
   float: right;
 }
-/* line 386, ../sass/style.scss */
+/* line 390, ../sass/style.scss */
 .middle .posts .post section footer a:hover {
   color: #58575F;
 }
-/* line 392, ../sass/style.scss */
+/* line 396, ../sass/style.scss */
 .middle .posts .post::after {
   content: "";
   position: absolute;
@@ -495,7 +496,7 @@ body {
   margin-top: 30px;
 }
 
-/* line 405, ../sass/style.scss */
+/* line 409, ../sass/style.scss */
 .rightside {
   position: absolute;
   top: 0;
@@ -507,37 +508,37 @@ body {
   padding-top: 20px;
   padding-left: 30px;
 }
-/* line 416, ../sass/style.scss */
+/* line 420, ../sass/style.scss */
 .rightside .trends {
   width: 100%;
   margin: 10px 10px;
 }
-/* line 419, ../sass/style.scss */
+/* line 423, ../sass/style.scss */
 .rightside .trends h3 {
   font-size: 1.2em;
   color: #58575F;
   margin: 10px 0;
 }
-/* line 424, ../sass/style.scss */
+/* line 428, ../sass/style.scss */
 .rightside .trends li {
   line-height: 2;
 }
-/* line 426, ../sass/style.scss */
+/* line 430, ../sass/style.scss */
 .rightside .trends li a {
   text-decoration: none;
   color: HSL(208, 41%, 65%);
 }
-/* line 433, ../sass/style.scss */
+/* line 437, ../sass/style.scss */
 .rightside .whotofollow {
   padding-top: 20px;
   width: 100%;
   margin: 10px 10px;
 }
-/* line 437, ../sass/style.scss */
+/* line 441, ../sass/style.scss */
 .rightside .whotofollow header {
   width: 100%;
 }
-/* line 439, ../sass/style.scss */
+/* line 443, ../sass/style.scss */
 .rightside .whotofollow header h3 {
   font-size: 1.2em;
   color: #58575F;
@@ -545,7 +546,7 @@ body {
   display: block;
   width: 50%;
 }
-/* line 446, ../sass/style.scss */
+/* line 450, ../sass/style.scss */
 .rightside .whotofollow header .more {
   float: right;
   display: block;
@@ -554,11 +555,11 @@ body {
   color: HSL(208, 41%, 65%);
   font-size: 1.2em;
 }
-/* line 455, ../sass/style.scss */
+/* line 459, ../sass/style.scss */
 .rightside .whotofollow .items {
   margin: 20px 0;
 }
-/* line 457, ../sass/style.scss */
+/* line 461, ../sass/style.scss */
 .rightside .whotofollow .items li {
   position: relative;
   padding: 5px 25px 5px 55px;
@@ -566,28 +567,28 @@ body {
   font-size: 1.2em;
   margin: 10px 0;
 }
-/* line 463, ../sass/style.scss */
+/* line 467, ../sass/style.scss */
 .rightside .whotofollow .items li img {
   width: 40px;
   height: 40px;
   position: absolute;
   top: 5px;
-  left: 5px;
+  left: 0;
 }
-/* line 470, ../sass/style.scss */
+/* line 474, ../sass/style.scss */
 .rightside .whotofollow .items li span {
   display: block;
 }
-/* line 473, ../sass/style.scss */
+/* line 477, ../sass/style.scss */
 .rightside .whotofollow .items li .ftitle {
   color: #C6C1B0;
 }
-/* line 476, ../sass/style.scss */
+/* line 480, ../sass/style.scss */
 .rightside .whotofollow .items li .fname {
   font-weight: lighter;
   margin-bottom: 8px;
 }
-/* line 480, ../sass/style.scss */
+/* line 484, ../sass/style.scss */
 .rightside .whotofollow .items li i {
   border: 1px solid #C6C1B0;
   float: right;
@@ -601,7 +602,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-/* line 504, ../sass/style.scss */
+/* line 508, ../sass/style.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -615,87 +616,87 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 518, ../sass/style.scss */
+/* line 522, ../sass/style.scss */
 .icon-bell:before {
   content: "\e60d";
 }
 
-/* line 521, ../sass/style.scss */
+/* line 525, ../sass/style.scss */
 .icon-redo:before {
   content: "\e600";
 }
 
-/* line 524, ../sass/style.scss */
+/* line 528, ../sass/style.scss */
 .icon-search:before {
   content: "\e601";
 }
 
-/* line 527, ../sass/style.scss */
+/* line 531, ../sass/style.scss */
 .icon-expand:before {
   content: "\e602";
 }
 
-/* line 530, ../sass/style.scss */
+/* line 534, ../sass/style.scss */
 .icon-star2:before {
   content: "\e604";
 }
 
-/* line 533, ../sass/style.scss */
+/* line 537, ../sass/style.scss */
 .icon-heart:before {
   content: "\e605";
 }
 
-/* line 536, ../sass/style.scss */
+/* line 540, ../sass/style.scss */
 .icon-play:before {
   content: "\e606";
 }
 
-/* line 539, ../sass/style.scss */
+/* line 543, ../sass/style.scss */
 .icon-loop:before {
   content: "\e607";
 }
 
-/* line 542, ../sass/style.scss */
+/* line 546, ../sass/style.scss */
 .icon-mail:before {
   content: "\e603";
 }
 
-/* line 545, ../sass/style.scss */
+/* line 549, ../sass/style.scss */
 .icon-twitter:before {
   content: "\e60a";
 }
 
-/* line 548, ../sass/style.scss */
+/* line 552, ../sass/style.scss */
 .icon-feather:before {
   content: "\e608";
 }
 
-/* line 551, ../sass/style.scss */
+/* line 555, ../sass/style.scss */
 .icon-envelope:before {
   content: "\e609";
 }
 
-/* line 554, ../sass/style.scss */
+/* line 558, ../sass/style.scss */
 .icon-mail2:before {
   content: "\e60c";
 }
 
-/* line 557, ../sass/style.scss */
+/* line 561, ../sass/style.scss */
 .icon-plus:before {
   content: "\e60f";
 }
 
-/* line 560, ../sass/style.scss */
+/* line 564, ../sass/style.scss */
 .icon-plus:before {
   content: "\e60f";
 }
 
-/* line 563, ../sass/style.scss */
+/* line 567, ../sass/style.scss */
 .icon-plus2:before {
   content: "\e610";
 }
 
-/* line 566, ../sass/style.scss */
+/* line 570, ../sass/style.scss */
 .icon-resize-enlarge:before {
   content: "\e611";
 }
